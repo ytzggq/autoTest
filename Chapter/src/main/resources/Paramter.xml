@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameter"><!--这个是参数化的配置-->
+    <test name="param">
+        <classes>
+            <parameter name="name" value="zhangsna"/>
+            <parameter name="age" value="10"/>
+            <class name="com.curse.testng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+</suite>

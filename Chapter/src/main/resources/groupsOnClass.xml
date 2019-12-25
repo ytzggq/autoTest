@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitername">
+    <test name="runAll">
+        <classes>
+            <class name="com.curse.testng.groups.GrousOnClass1"/>
+            <class name="com.curse.testng.groups.GrousOnClass2"/>
+            <class name="com.curse.testng.groups.GrousOnClass3"/>
+        </classes>
+    </test>
+
+    <test name="onlyRunnStu">
+        <groups>
+            <run>
+                <include name="stu"/>       <!--这个的意思是只运行name=stu的类，因此teacher这个类没有被运行，组测试在类下运行以及配置-->
+            </run>
+        </groups>
+        <classes>
+            <class name="com.curse.testng.groups.GrousOnClass1"/>
+            <class name="com.curse.testng.groups.GrousOnClass2"/>
+            <class name="com.curse.testng.groups.GrousOnClass3"/>
+        </classes>
+    </test>
+</suite>
