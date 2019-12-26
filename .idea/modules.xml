@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chapter/Chapter.iml" filepath="$PROJECT_DIR$/Chapter/Chapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/Chapter6.iml" filepath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JdbcTest/JdbcTest.iml" filepath="$PROJECT_DIR$/JdbcTest/JdbcTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumTest/SeleniumTest.iml" filepath="$PROJECT_DIR$/SeleniumTest/SeleniumTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/autoTest.iml" filepath="$PROJECT_DIR$/.idea/autoTest.iml" />
     </modules>
   </component>

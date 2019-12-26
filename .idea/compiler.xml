@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Chapter" />
+        <module name="JdbcTest" />
+        <module name="SeleniumTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="Chapter" target="1.5" />
+      <module name="JdbcTest" target="1.5" />
+      <module name="SeleniumTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
